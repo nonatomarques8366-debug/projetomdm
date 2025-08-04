@@ -63,7 +63,7 @@ const LandingPage = () => {
                 <span className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
                   {mockData.company.name}
                 </span>
-                <div className="text-xs text-cyan-300 font-mono">MDM_REMOVAL.EXE</div>
+                <div className="text-xs text-cyan-300 font-mono">REMOÇÃO DE MDM</div>
               </div>
             </div>
             
@@ -220,10 +220,10 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent mb-6">
-              Supported MDM Systems
+              Sistemas MDM suportados
             </h2>
             <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
-              We specialize in removing enterprise-level mobile device management software
+             Somos especializados na remoção de software de gerenciamento de dispositivos móveis de nível empresarial
             </p>
           </div>
           
@@ -253,7 +253,7 @@ const LandingPage = () => {
               </span>
             </h2>
             <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
-              Professional remote unlock in 4 simple steps
+              Desbloqueio remoto profissional em 4 etapas simples
             </p>
           </div>
           
@@ -291,9 +291,9 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-              Why Choose Our Service?
+             Por que escolher nosso serviço?
             </h2>
-            <p className="text-lg text-gray-400">Advanced technology meets professional expertise</p>
+            <p className="text-lg text-gray-400">Tecnologia avançada encontra experiência profissional</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -321,9 +321,9 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-              Success Stories
+              Histórias de sucesso
             </h2>
-            <p className="text-lg text-gray-400">Real users, real results</p>
+            <p className="text-lg text-gray-400">Usuários reais, resultados reais</p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -335,7 +335,7 @@ const LandingPage = () => {
                   {/* MDM System Badge */}
                   <Badge className="mb-4 bg-red-500/20 text-red-300 border border-red-400/30 font-mono text-xs">
                     <ZapOff className="w-3 h-3 mr-1" />
-                    {testimonial.mdmSystem} REMOVED
+                    {testimonial.mdmSystem} REMOVIDO
                   </Badge>
                   
                   <div className="flex mb-6">
@@ -375,11 +375,11 @@ const LandingPage = () => {
         
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-white mb-8">
-            Ready to 
-            <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent"> Break Free</span>?
+            Pronto para
+            <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent"> se libertar</span>?
           </h2>
           <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-12 leading-relaxed">
-            Professional MDM removal service - Contact us now for instant quote
+            Serviço profissional de remoção de MDM - Entre em contato conosco agora para um orçamento instantâneo
           </p>
           
           <Button 
@@ -394,7 +394,7 @@ const LandingPage = () => {
           <div className="mt-12 flex justify-center">
             <Badge className="inline-flex items-center px-6 py-3 bg-green-500/20 border border-green-400/30 text-green-300 font-mono">
               <Shield className="w-5 h-5 text-green-400 mr-2" />
-              100% Success Rate Guarantee
+              Garantia de 100% de sucesso
             </Badge>
           </div>
         </div>
@@ -419,8 +419,7 @@ const LandingPage = () => {
                 </div>
               </div>
               <p className="text-gray-400 leading-relaxed mb-8">
-                Professional Android MDM removal specialists. Advanced remote unlocking technology 
-                for PayJoy, Soundi, M-Kopa, and all enterprise mobile management systems.
+                Especialistas profissionais em remoção de MDM para Android. Tecnologia avançada de desbloqueio remoto para PayJoy, Soundi, M-Kopa e todos os sistemas de gerenciamento móvel empresarial.
               </p>
               <div className="flex items-center space-x-2 text-green-400">
                 <MessageSquare className="w-5 h-5" />
@@ -430,7 +429,7 @@ const LandingPage = () => {
             
             {/* Supported Brands */}
             <div>
-              <h3 className="text-xl font-bold mb-6 text-cyan-300">Supported Brands</h3>
+              <h3 className="text-xl font-bold mb-6 text-cyan-300">Marcas Suportadas</h3>
               <div className="space-y-3">
                 {mockData.supportedBrands.map((brand, index) => (
                   <div key={index} className="flex items-center space-x-3">
@@ -443,7 +442,7 @@ const LandingPage = () => {
 
             {/* Technical Specs */}
             <div>
-              <h3 className="text-xl font-bold mb-6 text-purple-300">Technical Specifications</h3>
+              <h3 className="text-xl font-bold mb-6 text-purple-300">Especificações técnicas</h3>
               <div className="space-y-3">
                 {mockData.technicalSpecs.map((spec, index) => (
                   <div key={index} className="flex items-start space-x-3">
@@ -458,7 +457,7 @@ const LandingPage = () => {
           <div className="border-t border-gray-800 mt-12 pt-8">
             <div className="text-center">
               <p className="text-gray-500 font-mono text-sm">
-                © 2024 {mockData.company.name} | PROFESSIONAL_MDM_REMOVAL_SERVICE.EXE | All rights reserved
+                © 2024 {mockData.company.name} | PROFESSIONAL EM DESBLOQUEIOS | All rights reserved
               </p>
             </div>
           </div>
