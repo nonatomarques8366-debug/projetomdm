@@ -4,6 +4,8 @@ import { Button } from './ui/button';
 import { Card, CardContent } from './ui/card';
 import { Badge } from './ui/badge';
 import { mockData } from '../mock';
+import ImageComparisonCarousel from "./ImageComparisonCarousel";
+
 
 const LandingPage = () => {
   const [isScrolled, setIsScrolled] = useState(false);
