@@ -4,8 +4,6 @@ import { Button } from './ui/button';
 import { Card, CardContent } from './ui/card';
 import { Badge } from './ui/badge';
 import { mockData } from '../mock';
-import ImageComparisonCarousel from "./ImageComparisonCarousel";
-
 
 const LandingPage = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,7 +34,7 @@ const LandingPage = () => {
       {/* Cyber Grid Background */}
       <div className="fixed inset-0 opacity-10 pointer-events-none">
         <div className="absolute inset-0 opacity-30" style={{
-          backgroundImage: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2300D4FF' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2300D4FF' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
           backgroundRepeat: 'repeat'
         }}></div>
       </div>
@@ -49,11 +47,11 @@ const LandingPage = () => {
       </div>
 
       {/* High-Tech Header */}
-      <header className={fixed w-full top-0 z-50 transition-all duration-300 ${
+      <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${
         isScrolled 
           ? 'bg-gray-900/95 backdrop-blur-xl border-b border-cyan-500/20 shadow-lg shadow-cyan-500/10' 
           : 'bg-transparent'
-      }}>
+      }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 lg:h-20">
             <div className="flex items-center space-x-3">
@@ -65,7 +63,7 @@ const LandingPage = () => {
                 <span className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
                   {mockData.company.name}
                 </span>
-                <div className="text-xs text-cyan-300 font-mono">REMOÇÃO DE MDM</div>
+                <div className="text-xs text-cyan-300 font-mono">MDM_REMOVAL.EXE</div>
               </div>
             </div>
             
@@ -164,20 +162,68 @@ const LandingPage = () => {
               </div>
             </div>
 
-        <section className="my-16">
-  <h2 className="text-center text-2xl font-bold mb-8 text-white">Exemplos de Desbloqueio</h2>
-  <ImageComparisonCarousel />
-</section>
+            {/* Right Visual - Real Phone Unlock Photos */}
+            <div className="relative">
+              <div className="grid grid-cols-2 gap-8 max-w-lg mx-auto">
+                {/* Locked Phone - Real Photo */}
+                <div className="relative group">
+                  <div className="bg-gradient-to-b from-red-600/20 to-red-800/20 p-4 rounded-2xl border border-red-500/30 backdrop-blur-sm overflow-hidden">
+                    <div className="relative">
+                      <img 
+                        src="https://customer-assets.emergentagent.com/job_mdmbreaker/artifacts/24lzrm14_IMG_20250803_134918_666.jpg"
+                        alt="Locked Android Device with MDM"
+                        className="w-full h-48 object-cover rounded-lg shadow-lg"
+                      />
+                      <Lock className="w-6 h-6 text-red-500 absolute -top-2 -right-2 bg-red-900/80 rounded-full p-1 shadow-lg" />
+                      <div className="text-center mt-2">
+                        <p className="text-red-300 font-bold text-sm">BLOQUEADO</p>
+                        <p className="text-red-500 text-xs mt-1">MDM Ativo</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-xs text-red-400 font-mono bg-gray-900/80 px-2 py-1 rounded">ANTES</div>
+                </div>
+
+                {/* Unlocked Phone - Real Photo */}
+                <div className="relative group">
+                  <div className="bg-gradient-to-b from-green-600/20 to-emerald-800/20 p-4 rounded-2xl border border-green-500/30 backdrop-blur-sm overflow-hidden">
+                    <div className="relative">
+                      <img 
+                        src="https://customer-assets.emergentagent.com/job_mdmbreaker/artifacts/jnal54e7_IMG_20250803_134921_876.jpg"
+                        alt="Unlocked Android Device Home Screen"
+                        className="w-full h-48 object-cover rounded-lg shadow-lg"
+                      />
+                      <Unlock className="w-6 h-6 text-green-500 absolute -top-2 -right-2 bg-green-900/80 rounded-full p-1 shadow-lg" />
+                      <div className="text-center mt-2">
+                        <p className="text-green-300 font-bold text-sm">DESBLOQUEADO</p>
+                        <p className="text-green-500 text-xs mt-1">Acesso Total</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-xs text-green-400 font-mono bg-gray-900/80 px-2 py-1 rounded">DEPOIS</div>
+                </div>
+              </div>
+
+              {/* Connecting Arrow with Animation */}
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+                <div className="bg-gray-900/90 rounded-full p-2 border border-cyan-500/50">
+                  <ArrowRight className="w-6 h-6 text-cyan-400 animate-pulse" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Supported MDM Systems */}
       <section className="py-20 lg:py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-900 to-gray-800">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent mb-6">
-              Sistemas MDM suportados
+              Supported MDM Systems
             </h2>
             <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
-             Somos especializados na remoção de software de gerenciamento de dispositivos móveis de nível empresarial
+              We specialize in removing enterprise-level mobile device management software
             </p>
           </div>
           
@@ -207,7 +253,7 @@ const LandingPage = () => {
               </span>
             </h2>
             <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
-              Desbloqueio remoto profissional em 4 etapas simples
+              Professional remote unlock in 4 simple steps
             </p>
           </div>
           
@@ -245,9 +291,9 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-             Por que escolher nosso serviço?
+              Why Choose Our Service?
             </h2>
-            <p className="text-lg text-gray-400">Tecnologia avançada encontra experiência profissional</p>
+            <p className="text-lg text-gray-400">Advanced technology meets professional expertise</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -275,9 +321,9 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-              Histórias de sucesso
+              Success Stories
             </h2>
-            <p className="text-lg text-gray-400">Usuários reais, resultados reais</p>
+            <p className="text-lg text-gray-400">Real users, real results</p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -289,7 +335,7 @@ const LandingPage = () => {
                   {/* MDM System Badge */}
                   <Badge className="mb-4 bg-red-500/20 text-red-300 border border-red-400/30 font-mono text-xs">
                     <ZapOff className="w-3 h-3 mr-1" />
-                    {testimonial.mdmSystem} REMOVIDO
+                    {testimonial.mdmSystem} REMOVED
                   </Badge>
                   
                   <div className="flex mb-6">
@@ -329,11 +375,11 @@ const LandingPage = () => {
         
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-white mb-8">
-            Pronto para
-            <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent"> se libertar</span>?
+            Ready to 
+            <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent"> Break Free</span>?
           </h2>
           <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-12 leading-relaxed">
-            Serviço profissional de remoção de MDM - Entre em contato conosco agora para um orçamento instantâneo
+            Professional MDM removal service - Contact us now for instant quote
           </p>
           
           <Button 
@@ -348,7 +394,7 @@ const LandingPage = () => {
           <div className="mt-12 flex justify-center">
             <Badge className="inline-flex items-center px-6 py-3 bg-green-500/20 border border-green-400/30 text-green-300 font-mono">
               <Shield className="w-5 h-5 text-green-400 mr-2" />
-              Garantia de 100% de sucesso
+              100% Success Rate Guarantee
             </Badge>
           </div>
         </div>
@@ -373,7 +419,8 @@ const LandingPage = () => {
                 </div>
               </div>
               <p className="text-gray-400 leading-relaxed mb-8">
-                Especialistas profissionais em remoção de MDM para Android. Tecnologia avançada de desbloqueio remoto para PayJoy, Soundi, M-Kopa e todos os sistemas de gerenciamento móvel empresarial.
+                Professional Android MDM removal specialists. Advanced remote unlocking technology 
+                for PayJoy, Soundi, M-Kopa, and all enterprise mobile management systems.
               </p>
               <div className="flex items-center space-x-2 text-green-400">
                 <MessageSquare className="w-5 h-5" />
@@ -383,7 +430,7 @@ const LandingPage = () => {
             
             {/* Supported Brands */}
             <div>
-              <h3 className="text-xl font-bold mb-6 text-cyan-300">Marcas Suportadas</h3>
+              <h3 className="text-xl font-bold mb-6 text-cyan-300">Supported Brands</h3>
               <div className="space-y-3">
                 {mockData.supportedBrands.map((brand, index) => (
                   <div key={index} className="flex items-center space-x-3">
@@ -396,7 +443,7 @@ const LandingPage = () => {
 
             {/* Technical Specs */}
             <div>
-              <h3 className="text-xl font-bold mb-6 text-purple-300">Especificações técnicas</h3>
+              <h3 className="text-xl font-bold mb-6 text-purple-300">Technical Specifications</h3>
               <div className="space-y-3">
                 {mockData.technicalSpecs.map((spec, index) => (
                   <div key={index} className="flex items-start space-x-3">
@@ -411,7 +458,7 @@ const LandingPage = () => {
           <div className="border-t border-gray-800 mt-12 pt-8">
             <div className="text-center">
               <p className="text-gray-500 font-mono text-sm">
-                © 2024 {mockData.company.name} | PROFESSIONAL EM DESBLOQUEIOS | All rights reserved
+                © 2024 {mockData.company.name} | PROFESSIONAL_MDM_REMOVAL_SERVICE.EXE | All rights reserved
               </p>
             </div>
           </div>
