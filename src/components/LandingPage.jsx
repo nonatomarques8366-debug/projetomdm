@@ -415,12 +415,11 @@ const LandingPage = () => {
                   <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
                     {mockData.company.name}
                   </span>
-                  <div className="text-xs text-cyan-300 font-mono">ANDROID_UNLOCK_PRO</div>
+                  <div className="text-xs text-cyan-300 font-mono">Shyyxn unlock solucions</div>
                 </div>
               </div>
               <p className="text-gray-400 leading-relaxed mb-8">
-                Professional Android MDM removal specialists. Advanced remote unlocking technology 
-                for PayJoy, Soundi, M-Kopa, and all enterprise mobile management systems.
+                Especialistas profissionais em remoção de MDM para Android. Tecnologia avançada de desbloqueio remoto para PayJoy, Soundi, M-Kopa e todos os sistemas de gerenciamento móvel empresarial.
               </p>
               <div className="flex items-center space-x-2 text-green-400">
                 <MessageSquare className="w-5 h-5" />
@@ -430,7 +429,7 @@ const LandingPage = () => {
             
             {/* Supported Brands */}
             <div>
-              <h3 className="text-xl font-bold mb-6 text-cyan-300">Supported Brands</h3>
+              <h3 className="text-xl font-bold mb-6 text-cyan-300">Marcas suportadas</h3>
               <div className="space-y-3">
                 {mockData.supportedBrands.map((brand, index) => (
                   <div key={index} className="flex items-center space-x-3">
@@ -458,7 +457,7 @@ const LandingPage = () => {
           <div className="border-t border-gray-800 mt-12 pt-8">
             <div className="text-center">
               <p className="text-gray-500 font-mono text-sm">
-                © 2024 {mockData.company.name} | PROFESSIONAL_MDM_REMOVAL_SERVICE.EXE | All rights reserved
+                © 2024 {mockData.company.name} | REMOÇAO PROFESSIONAL DE MDM | All rights reserved
               </p>
             </div>
           </div>
