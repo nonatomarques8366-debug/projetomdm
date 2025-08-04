@@ -4,8 +4,8 @@ import { Lock, Unlock } from "lucide-react";
 
 const imagePairs = [
   {
-    before: "URL_DA_IMAGEM_ANTES_1",
-    after: "URL_DA_IMAGEM_DEPOIS_1",
+    before: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fembratur.com.br%2F2022%2F10%2F18%2Fprojeto-de-captacao-de-imagens-das-maravilhas-do-brasil-chega-ao-rio-e-a-sao-paulo%2F&psig=AOvVaw1AWDHbomaAWSE9xtTMLFlb&ust=1754411747042000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMCtspnL8Y4DFQAAAAAdAAAAABAE",
+    after: "https://www.google.com/imgres?q=imagens&imgurl=https%3A%2F%2Fwallpapers.com%2Fimages%2Fhd%2Fawesome-pictures-k287z98ruunquo28.jpg&imgrefurl=https%3A%2F%2Fpt.wallpapers.com%2Fimagens-incriveis&docid=OY9WRxCRZ1EZCM&tbnid=M_8Rjs9b80UfbM&vet=12ahUKEwii2dyXy_GOAxUpppUCHYqeG-wQM3oECBcQAA..i&w=1920&h=1080&hcb=2&ved=2ahUKEwii2dyXy_GOAxUpppUCHYqeG-wQM3oECBcQAA",
   },
   {
     before: "URL_DA_IMAGEM_ANTES_2",
