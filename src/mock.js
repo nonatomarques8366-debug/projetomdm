@@ -11,7 +11,7 @@ export const mockData = {
     subheadline: "Remoção Profissional de Software Empresarial",
     description: "Livre-se de PayJoy, Soundi, M-Kopa, Domo, ItelOS, Tranzact e outros bloqueios corporativos. Serviço remoto sem perda de dados.",
     cta: "Iniciar Desbloqueio",
-    badge: "Sem Jailbreak • Sem Root"
+    badge: "100% online • suporte 24h"
   },
 
   supportedMdmSystems: [
@@ -27,14 +27,14 @@ export const mockData = {
     title: "Como Funciona o Processo de Desbloqueio",
     steps: [
       { number: "01", title: "Análise do Aparelho", description: "Envie o modelo e sistema MDM via WhatsApp para análise instantânea" },
-      { number: "02", title: "Conexão Remota", description: "Nossos técnicos se conectam usando ferramentas avançadas de diagnóstico e software de bypass" },
+      { number: "02", title: "Conexão Remota", description: "Nossos técnicos se conectam usando ferramentas avançadas de diagnóstico e softwares" },
       { number: "03", title: "Remoção MDM", description: "Remoção profissional de bloqueios corporativos sem root e sem apagar os dados" },
       { number: "04", title: "Liberdade Entregue", description: "Receba seu dispositivo completamente desbloqueado com acesso total às funções do Android" }
     ]
   },
 
   benefits: [
-    { icon: "Zap", title: "Ultrarrápido", description: "A maioria dos aparelhos é desbloqueada entre 2 a 6 horas via conexão remota segura" },
+    { icon: "Zap", title: "Ultrarrápido", description: "A maioria dos aparelhos é desbloqueada entre 15 a 30 minutos via conexão remota segura" },
     { icon: "Wifi", title: "100% Remoto", description: "Sem necessidade de envio. Tudo feito por conexão remota" },
     { icon: "HardDrive", title: "Sem Perda de Dados", description: "Seus arquivos, apps, contatos e mídia continuam intactos" },
     { icon: "Users", title: "Suporte Especializado", description: "Técnicos certificados com mais de 5 anos de experiência em remoção de MDM" }
@@ -44,8 +44,8 @@ export const mockData = {
     {
       name: "Marcus Silva",
       location: "São Paulo, SP",
-      device: "Samsung Galaxy A54",
-      text: "Comprei um Galaxy com bloqueio PayJoy. A Shyyxn removeu em 3h remotamente. Tudo funcionando, sem perder nada!",
+      device: "Samsung Galaxy A15",
+      text: "Comprei um Galaxy com bloqueio PayJoy. A Shyyxn removeu em 1h remotamente. Tudo funcionando, sem perder nada!",
       rating: 5,
       mdmSystem: "PayJoy"
     },
@@ -81,8 +81,8 @@ export const mockData = {
   ],
 
   technicalSpecs: [
-    "Compatível com Android 8.0 até Android 14",
-    "Bypass de Knox, Google Work Profile e MDMs personalizados",
+    "Compatível com Android 8.0 até Android 15",
+    "Bypass de Knox, Google FRP e MDMs personalizados",
     "Suporte a dispositivos criptografados e não criptografados",
     "Não requer acesso físico – 100% remoto",
     "Protocolos de segurança de nível empresarial",
