@@ -14,7 +14,7 @@ export const mockData = {
     badge: "Sem senha • Não é necessário imei"
   },
 
-  Sistemas MDM suportados: [
+  supportedMdmSystems: [
     {
       name: "PayJoy",
       description: "Remoção de bloqueio financeiro",
