@@ -1,4 +1,4 @@
-// Mock data for Technological Android MDM Removal Landing Page
+// Mock data para a Landing Page de Remoção de MDM em Android
 export const mockData = {
   company: {
     name: "Shyyxn Solucions",
@@ -9,7 +9,7 @@ export const mockData = {
   hero: {
     headline: "Desbloqueie Qualquer Android com MDM",
     subheadline: "Remoção Profissional de Software Empresarial",
-    description: "Livre-se do PayJoy, Soundi, M-Kopa, Domo, ItelOS, Tranzact e outros bloqueios corporativos. Serviço remoto sem perda de dados.",
+    description: "Livre-se de PayJoy, Soundi, M-Kopa, Domo, ItelOS, Tranzact e outros bloqueios corporativos. Serviço remoto sem perda de dados.",
     cta: "Iniciar Desbloqueio",
     badge: "Sem Jailbreak • Sem Root"
   },
@@ -28,4 +28,64 @@ export const mockData = {
     steps: [
       { number: "01", title: "Análise do Aparelho", description: "Envie o modelo e sistema MDM via WhatsApp para análise instantânea" },
       { number: "02", title: "Conexão Remota", description: "Nossos técnicos se conectam usando ferramentas avançadas de diagnóstico e software de bypass" },
-      { number: "03", title: "Remoção MDM", description: "Remoção profissional de bloqueios corporativos sem
+      { number: "03", title: "Remoção MDM", description: "Remoção profissional de bloqueios corporativos sem root e sem apagar os dados" },
+      { number: "04", title: "Liberdade Entregue", description: "Receba seu dispositivo completamente desbloqueado com acesso total às funções do Android" }
+    ]
+  },
+
+  benefits: [
+    { icon: "Zap", title: "Ultrarrápido", description: "A maioria dos aparelhos é desbloqueada entre 2 a 6 horas via conexão remota segura" },
+    { icon: "Wifi", title: "100% Remoto", description: "Sem necessidade de envio. Tudo feito por conexão remota" },
+    { icon: "HardDrive", title: "Sem Perda de Dados", description: "Seus arquivos, apps, contatos e mídia continuam intactos" },
+    { icon: "Users", title: "Suporte Especializado", description: "Técnicos certificados com mais de 5 anos de experiência em remoção de MDM" }
+  ],
+
+  testimonials: [
+    {
+      name: "Marcus Silva",
+      location: "São Paulo, SP",
+      device: "Samsung Galaxy A54",
+      text: "Comprei um Galaxy com bloqueio PayJoy. A Shyyxn removeu em 3h remotamente. Tudo funcionando, sem perder nada!",
+      rating: 5,
+      mdmSystem: "PayJoy"
+    },
+    {
+      name: "Carla Santos",
+      location: "Rio de Janeiro, RJ",
+      device: "Motorola Edge 40",
+      text: "O M-Kopa estava travando meu celular. Eles desbloquearam sem complicação. Excelente serviço!",
+      rating: 5,
+      mdmSystem: "M-Kopa"
+    },
+    {
+      name: "Roberto Lima",
+      location: "Belém, PA",
+      device: "Xiaomi Redmi Note 12",
+      text: "O bloqueio do ItelOS estava me enlouquecendo. Encontrei a Shyyxn, paguei e horas depois meu Xiaomi estava livre. Recomendo demais!",
+      rating: 5,
+      mdmSystem: "ItelOS"
+    }
+  ],
+
+  supportedBrands: [
+    "Samsung Galaxy",
+    "Motorola Edge e Moto G",
+    "Xiaomi e Redmi",
+    "Realme",
+    "Oppo e OnePlus",
+    "Vivo e iQOO",
+    "LG",
+    "Sony Xperia",
+    "Huawei e Honor",
+    "TCL e Alcatel"
+  ],
+
+  technicalSpecs: [
+    "Compatível com Android 8.0 até Android 14",
+    "Bypass de Knox, Google Work Profile e MDMs personalizados",
+    "Suporte a dispositivos criptografados e não criptografados",
+    "Não requer acesso físico – 100% remoto",
+    "Protocolos de segurança de nível empresarial",
+    "Ferramentas profissionais de diagnóstico e desbloqueio"
+  ]
+};
