@@ -63,7 +63,7 @@ const LandingPage = () => {
                 <span className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
                   {mockData.company.name}
                 </span>
-                <div className="text-xs text-cyan-300 font-mono">MDM_REMOVAL.EXE</div>
+                <div className="text-xs text-cyan-300 font-mono">REMOÇÃO DE MDM</div>
               </div>
             </div>
             
