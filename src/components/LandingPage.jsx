@@ -164,47 +164,10 @@ const LandingPage = () => {
               </div>
             </div>
 
-            {/* Right Visual - Real Phone Unlock Photos */}
-            <div className="relative">
-              <div className="grid grid-cols-2 gap-8 max-w-lg mx-auto">
-                {/* Locked Phone - Real Photo */}
-                <div className="relative group">
-                  <div className="bg-gradient-to-b from-red-600/20 to-red-800/20 p-4 rounded-2xl border border-red-500/30 backdrop-blur-sm overflow-hidden">
-                    <div className="relative">
-                      <img 
-                        src="https://customer-assets.emergentagent.com/job_mdmbreaker/artifacts/24lzrm14_IMG_20250803_134918_666.jpg"
-                        alt="Locked Android Device with MDM"
-                        className="w-full h-48 object-cover rounded-lg shadow-lg"
-                      />
-                      <Lock className="w-6 h-6 text-red-500 absolute -top-2 -right-2 bg-red-900/80 rounded-full p-1 shadow-lg" />
-                      <div className="text-center mt-2">
-                        <p className="text-red-300 font-bold text-sm">BLOQUEADO</p>
-                        <p className="text-red-500 text-xs mt-1">MDM Ativo</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-xs text-red-400 font-mono bg-gray-900/80 px-2 py-1 rounded">ANTES</div>
-                </div>
-
-                {/* Unlocked Phone - Real Photo */}
-                <div className="relative group">
-                  <div className="bg-gradient-to-b from-green-600/20 to-emerald-800/20 p-4 rounded-2xl border border-green-500/30 backdrop-blur-sm overflow-hidden">
-                    <div className="relative">
-                      <img 
-                        src="https://customer-assets.emergentagent.com/job_mdmbreaker/artifacts/jnal54e7_IMG_20250803_134921_876.jpg"
-                        alt="Unlocked Android Device Home Screen"
-                        className="w-full h-48 object-cover rounded-lg shadow-lg"
-                      />
-                      <Unlock className="w-6 h-6 text-green-500 absolute -top-2 -right-2 bg-green-900/80 rounded-full p-1 shadow-lg" />
-                      <div className="text-center mt-2">
-                        <p className="text-green-300 font-bold text-sm">DESBLOQUEADO</p>
-                        <p className="text-green-500 text-xs mt-1">Acesso Total</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-xs text-green-400 font-mono bg-gray-900/80 px-2 py-1 rounded">DEPOIS</div>
-                </div>
-              </div>
+        <section className="my-16">
+  <h2 className="text-center text-2xl font-bold mb-8 text-white">Exemplos de Desbloqueio</h2>
+  <ImageComparisonCarousel />
+</section>
 
               {/* Connecting Arrow with Animation */}
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
