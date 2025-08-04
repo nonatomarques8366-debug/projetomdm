@@ -169,17 +169,6 @@ const LandingPage = () => {
   <ImageComparisonCarousel />
 </section>
 
-              {/* Connecting Arrow with Animation */}
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
-                <div className="bg-gray-900/90 rounded-full p-2 border border-cyan-500/50">
-                  <ArrowRight className="w-6 h-6 text-cyan-400 animate-pulse" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Supported MDM Systems */}
       <section className="py-20 lg:py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-900 to-gray-800">
         <div className="max-w-6xl mx-auto">
