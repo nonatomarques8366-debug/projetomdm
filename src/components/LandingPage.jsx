@@ -157,7 +157,7 @@ const LandingPage = () => {
                   className="px-8 py-6 text-lg rounded-lg border-2 border-purple-500/50 text-purple-300 hover:bg-purple-500/10 transition-all duration-300"
                 >
                   <Play className="w-5 h-5 mr-2" />
-                  View Process
+                  Ver processos
                 </Button>
               </div>
             </div>
@@ -442,7 +442,7 @@ const LandingPage = () => {
 
             {/* Technical Specs */}
             <div>
-              <h3 className="text-xl font-bold mb-6 text-purple-300">Technical Specifications</h3>
+              <h3 className="text-xl font-bold mb-6 text-purple-300">Especificações técnicas</h3>
               <div className="space-y-3">
                 {mockData.technicalSpecs.map((spec, index) => (
                   <div key={index} className="flex items-start space-x-3">
