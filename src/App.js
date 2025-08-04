@@ -39,3 +39,12 @@ function App() {
 }
 
 export default App;
+
+import { useEffect } from "react";
+
+useEffect(() => {
+  const badge = document.getElementById("emergent-badge");
+  if (badge) {
+    badge.remove();
+  }
+}, []);
