@@ -220,10 +220,10 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent mb-6">
-              Supported MDM Systems
+              Sistemas MDM suportados
             </h2>
             <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
-              We specialize in removing enterprise-level mobile device management software
+              Somos especializados na remoção de software de gerenciamento de dispositivos móveis de nível empresarial
             </p>
           </div>
           
@@ -253,7 +253,7 @@ const LandingPage = () => {
               </span>
             </h2>
             <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
-              Professional remote unlock in 4 simple steps
+             Desbloqueio remoto profissional em 4 etapas simples
             </p>
           </div>
           
@@ -291,9 +291,9 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-              Why Choose Our Service?
+              Por que escolher nosso serviço?
             </h2>
-            <p className="text-lg text-gray-400">Advanced technology meets professional expertise</p>
+            <p className="text-lg text-gray-400">Tecnologia avançada encontra experiência profissional</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -323,7 +323,7 @@ const LandingPage = () => {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
               Success Stories
             </h2>
-            <p className="text-lg text-gray-400">Real users, real results</p>
+            <p className="text-lg text-gray-400">Usuários reais, resultados reais</p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -335,7 +335,7 @@ const LandingPage = () => {
                   {/* MDM System Badge */}
                   <Badge className="mb-4 bg-red-500/20 text-red-300 border border-red-400/30 font-mono text-xs">
                     <ZapOff className="w-3 h-3 mr-1" />
-                    {testimonial.mdmSystem} REMOVED
+                    {testimonial.mdmSystem} REMOVIDO
                   </Badge>
                   
                   <div className="flex mb-6">
@@ -375,11 +375,11 @@ const LandingPage = () => {
         
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-white mb-8">
-            Ready to 
-            <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent"> Break Free</span>?
+            Pronto para
+            <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent"> se libertar</span>?
           </h2>
           <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-12 leading-relaxed">
-            Professional MDM removal service - Contact us now for instant quote
+           Serviço profissional de remoção de MDM - Entre em contato conosco agora para um orçamento instantâneo
           </p>
           
           <Button 
@@ -388,13 +388,13 @@ const LandingPage = () => {
             className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-400 hover:to-emerald-400 text-white px-12 py-6 text-xl rounded-lg shadow-2xl hover:shadow-green-500/50 transition-all duration-300 transform hover:scale-105 border border-green-400/30"
           >
             <MessageSquare className="w-6 h-6 mr-3" />
-            Start WhatsApp Chat
+            Iniciar bate-papo no Whatsapp
           </Button>
 
           <div className="mt-12 flex justify-center">
             <Badge className="inline-flex items-center px-6 py-3 bg-green-500/20 border border-green-400/30 text-green-300 font-mono">
               <Shield className="w-5 h-5 text-green-400 mr-2" />
-              100% Success Rate Guarantee
+              Garantia de 100% de sucesso
             </Badge>
           </div>
         </div>
