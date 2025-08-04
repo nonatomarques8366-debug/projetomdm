@@ -7,17 +7,17 @@ export const mockData = {
   },
   
   hero: {
-    headline: "Unlock Any Android MDM",
-    subheadline: "Professional Enterprise Software Removal",
-    description: "Break free from PayJoy, Soundi, M-Kopa, Domo, ItelOS, Tranzact and other corporate locks. Remote service with zero data loss.",
-    cta: "Start Unlock Process",
-    badge: "No Jailbreak • No Root Required"
+    headline: "Desbloqueie qualquer MDM Android",
+    subheadline: "Remoção de software empresarial profissional",
+    description: "Livre-se de PayJoy, Soundi, M-Kopa, Domo, ItelOS, Tranzact e outros bloqueios corporativos. Atendimento remoto sem perda de dados.",
+    cta: "iniciar processo de desbloqueio",
+    badge: "Sem senha • Não é necessário imei"
   },
 
-  supportedMdmSystems: [
+  Sistemas MDM suportados: [
     {
       name: "PayJoy",
-      description: "Financial lock removal",
+      description: "Remoção de bloqueio financeiro",
       icon: "CreditCard"
     },
     {
@@ -27,48 +27,48 @@ export const mockData = {
     },
     {
       name: "M-Kopa",
-      description: "Loan-based device locks",
+      description: "Bloqueios de dispositivos baseados em empréstimos",
       icon: "DollarSign"
     },
     {
       name: "Domo",
-      description: "Enterprise mobile management",
+      description: "Gestão móvel empresarial",
       icon: "Shield"
     },
     {
       name: "ItelOS",
-      description: "Carrier-based restrictions",
+      description: "Restrições baseadas em operadora",
       icon: "Radio"
     },
     {
       name: "Tranzact",
-      description: "Payment platform locks",
+      description: "Bloqueios de plataforma de pagamento",
       icon: "Smartphone"
     }
   ],
 
   process: {
-    title: "How The Unlock Process Works",
+    title: "Como funciona o processo de desbloqueio",
     steps: [
       {
         number: "01",
-        title: "Device Analysis",
-        description: "Send us your device model and current MDM system via WhatsApp for instant analysis"
+        title: "Análise de dispositivos",
+        description: "Envie-nos o modelo do seu dispositivo e o sistema MDM atual via WhatsApp para análise instantânea"
       },
       {
         number: "02", 
-        title: "Remote Connection",
-        description: "Our technicians connect remotely using advanced diagnostic tools and bypass software"
+        title: "Conexão remota",
+        description: "Nossos técnicos se conectam remotamente usando ferramentas avançadas de diagnóstico e softwares"
       },
       {
         number: "03",
-        title: "MDM Removal",
-        description: "Professional removal of enterprise locks without root access or data erasure"
+        title: "Remoção de MDM",
+        description: "Remoção profissional de bloqueios empresariais sem acesso root ou eliminação de dados"
       },
       {
         number: "04",
-        title: "Freedom Delivered",
-        description: "Receive your fully unlocked device with complete access to all Android features"
+        title: "Liberdade Entregue",
+        description: "Receba seu dispositivo totalmente desbloqueado com acesso completo a todos os recursos do Android"
       }
     ]
   },
@@ -76,23 +76,23 @@ export const mockData = {
   benefits: [
     {
       icon: "Zap",
-      title: "Lightning Fast",
-      description: "Most devices unlocked within 2-6 hours via secure remote connection"
+      title: "Rápido como um raio",
+      description: "A maioria dos dispositivos é desbloqueada em 15 a 30 minutos por meio de conexão remota segura"
     },
     {
       icon: "Wifi", 
-      title: "100% Remote",
-      description: "No need to ship device. Everything done through remote diagnostic protocols"
+      title: "100% Remoto",
+      description: "Não há necessidade de enviar o dispositivo. Tudo é feito por meio de protocolos de diagnóstico remoto."
     },
     {
       icon: "HardDrive",
-      title: "Zero Data Loss", 
-      description: "All personal files, apps, contacts and media remain completely intact"
+      title: "Perda zero de dados", 
+      description: "Todos os arquivos pessoais, aplicativos, contatos e mídia permanecem completamente intactos"
     },
     {
       icon: "Users",
-      title: "Expert Support",
-      description: "Certified Android technicians with 5+ years of MDM removal experience"
+      title: "Suporte especializado",
+      description: "Técnicos Android certificados com mais de 5 anos de experiência em remoção de MDM"
     }
   ],
 
@@ -101,7 +101,7 @@ export const mockData = {
       name: "Marcus Silva",
       location: "São Paulo, SP",
       device: "Samsung Galaxy A54",
-      text: "Bought a used Galaxy with PayJoy lock. Shyyxn removed it in 3 hours remotely. Phone works perfectly now, all my data intact!",
+      text: " Comprei um Galaxy usado com bloqueio PayJoy. A Shyyxn o removeu remotamente em 2 horas. O telefone funciona perfeitamente agora, todos os meus dados intactos!",
       rating: 5,
       mdmSystem: "PayJoy"
     },
@@ -109,7 +109,7 @@ export const mockData = {
       name: "Carla Santos", 
       location: "Rio de Janeiro, RJ",
       device: "Motorola Edge 40",
-      text: "M-Kopa was blocking everything on my Motorola. These guys are legit experts - unlocked it without any hassle.",
+      text: "O M-Kopa estava bloqueando tudo no meu Motorola. Esses caras são especialistas de verdade — desbloquearam sem complicações.",
       rating: 5,
       mdmSystem: "M-Kopa"
     },
@@ -117,7 +117,7 @@ export const mockData = {
       name: "Roberto Lima",
       location: "Belém, PA", 
       device: "Xiaomi Redmi Note 12",
-      text: "ItelOS lock was driving me crazy. Found Shyyxn online, paid, and within hours my Xiaomi was completely free. Highly recommend!",
+      text: "O bloqueio do ItelOS estava me deixando louco. Encontrei o Shyyxn online, paguei e, em poucas horas, meu Xiaomi estava completamente livre. Recomendo muito! ",
       rating: 5,
       mdmSystem: "ItelOS"
     }
@@ -137,7 +137,7 @@ export const mockData = {
   ],
 
   technicalSpecs: [
-    "Android 8.0 to Android 14 support",
+    "Android 8.0 to Android 15 support",
     "Knox, Google Work Profile, and custom MDM bypass", 
     "Encrypted and non-encrypted device compatibility",
     "No physical access required - 100% remote",
